@@ -13,15 +13,15 @@ The Threads8 class extends the Thread class as well. It calculates the 40th Fibo
 The main class initializes instances of both Threads8 and Threads9, starts the threads, waits for their completion using join(), and prints the results. This class serves as the entry point to the program.
 Usage
 
-    Run the Threads8 class.
-    The program will start two threads, one for dynamic programming and one for recursion.
-    Each thread calculates the 40th Fibonacci number and prints the result along with the execution time.
-    The program ensures that both threads complete their calculations before printing the final results.
+Run the Threads8 class.
+The program will start two threads, one for dynamic programming and one for recursion.
+Each thread calculates the 40th Fibonacci number and prints the result along with the execution time.
+The program ensures that both threads complete their calculations before printing the final results.
 
 Note
 
-    The use of multithreading allows for concurrent execution of the Fibonacci calculations, potentially improving overall performance.
+The use of multithreading allows for concurrent execution of the Fibonacci calculations, potentially improving overall performance.
 
-    Adjust the Fibonacci sequence number (currently set to 40) based on your requirements.
+Adjust the Fibonacci sequence number (currently set to 40) based on your requirements.
 
 Feel free to explore and modify the code to experiment with different Fibonacci numbers or further optimize the implementation.
